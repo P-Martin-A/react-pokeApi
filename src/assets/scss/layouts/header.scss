@@ -1,0 +1,41 @@
+// COLORS
+$white: #f1f1f1;
+$black: #555555;
+$grey: #c0c0c0;
+$red: #ffb8b8;
+$red-dark: #d84d4d;
+
+.header {
+  position: relative;
+  min-width: 300px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  border-bottom: 1px solid $grey;
+  background-color: $white;
+
+  .header_logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .header_logo-image {
+      width: 5rem;
+      height: 5rem;
+      margin-right: .5rem;
+      filter: drop-shadow(0 0 2rem $red);
+    }
+
+    .header_logo-title {
+      font-size: 2rem;
+      letter-spacing: .5rem;
+      text-shadow: 0 0 5rem $red-dark;
+      color: $black;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+// COLORS
+$red: #fd6d6d;
+$red-dark: #b33f3f;
+
+.error {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: $red-dark;
+  text-shadow: 0 0 .5rem $red;
+}

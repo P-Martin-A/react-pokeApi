@@ -1,0 +1,31 @@
+// FONT 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+$font-family: 'Ubuntu Condensed', sans-serif;
+
+// COLORS
+$white: #f1f1f1;
+$grey: #a7a7a7;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+
+  body {
+    font-family: $font-family;
+    background-color: $white;
+    color: $grey;
+
+    ul li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
